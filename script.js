@@ -18,6 +18,7 @@ const emailTest = () => {
     icon.innerHTML = `<img src="${img}">`
     errorMessage.textContent = "Please provide a valid email address.";
 } else if (emailValue) {
+    inputContainer.style.border = 'none'
     inputContainer.innerHTML = `<p style="color: green">Email sent successfully!</p>`
     inputContainer.style.borderColor = 'green'
     icon.innerHTML = ''
