@@ -7,7 +7,7 @@
         const errorMessage = document.getElementById('txt');
         const icon = document.getElementById('icon')
         const inputContainer = document.getElementById('inputContainer')
-        const img = '/images/icon-error.svg'
+        const img = 'images/icon-error.svg'
 
         if (!emailValue) {
         inputContainer.style.borderColor = 'red'
