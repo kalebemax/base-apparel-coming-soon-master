@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- displays site properly based on user's device -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title -->
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <!-- Icons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-[JosefinSans] bg-[url(images/bg-pattern-desktop.svg)] bg-contain bg-top-left bg-no-repeat flex flex-col lg:flex-row justify-center items-center m-0 p-0 h-screen w-screen">
+  <!-- Desktop Image -->
+  <img class="lg:block h-full order-1 hidden" src="images/hero-desktop.jpg" alt="desktop-image">
+
+  <main class="flex flex-col justify-center items-center lg:m-28">
+      <img class="self-start pl-10 mt-[300px] lg:mt-5 lg:mb-24 lg:pl-0" src="images/logo.svg" alt="logo-site">
+      <!-- Mobile Image -->
+      <img class="w-full mt-10 lg:hidden" src="images/hero-mobile.jpg" alt="mobile-image">
+      <!-- Title and Paragraph Section -->
+      <section class="text-center lg:text-left lg:text-xl">
+        <h1 class="text-[5.5rem] leading-[4.5rem] mt-20 lg:mt-5">
+          <p class="text-[#CE97A3]">We're</p> coming soon
+        </h1>
+        <p class="text-[#CE97A3] mt-10">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+      </section>
+      <!-- Input Elements -->
+      <div id="inputContainer" class="flex p-4 mt-10 lg:mr-20 mb-20 w-96 lg:w-[440px] h-[60px] border border-[#ce97a3b7] rounded-[50px] bg-white">
+          <input id="email" class="pl-2 w-full outline-none placeholder:text-pink-300 placeholder:font-light" type="email" placeholder="Email Address"></input>
+          <div id="icon" class="w-10"></div>
+          <button id="btn" class="h-[65px] -mt-5 -mr-[18px] p-2 w-20 bg-[#fa8a8a] hover:bg-[#fd9e9e] duration-300 rounded-full shadow-xl">
+        <img src="images/login_100dp_FFFF_FILL0_wght400_GRAD0_opsz48.svg" alt="icon-arrow">
+      </button>
+      </div>
+      <div id="txt" class="-mt-16 mb-10 self-start pl-24 text-red-600">
+
+      </div>
+  </main>
+  <!-- Javascript -->
+  <script src="script.js"></script>
+</body>
+</html>
