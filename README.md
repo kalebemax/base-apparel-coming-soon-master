@@ -8,8 +8,8 @@ This is my solution to the [Base Apparel coming soon page challenge on Frontend 
 
 
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [GitHub](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/apparel-coming-soon-page-9gkv_L3LdI)
+- Live Site URL: [GitHub](https://kalebemax.github.io/base-apparel-coming-soon-master/)
 
 
 
